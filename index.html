@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="./style.css">
-    
+    <link rel="stylesheet" href="./style.css">
+
     <title>my-JavaScript-test</title>
-   
-   
+
+
     <style>
         body {
+            background-color: rgb(115, 124, 124);
             text-align: center;
             margin: 40;
             width: 100%;
@@ -22,23 +23,30 @@
             align-items: center;
             gap: 1rem;
         }
-    
-  button:hover {
-    background-color: rgba(51, 41, 41, 0.719);
-  }
+
+        button:hover {
+            background-color: rgba(51, 41, 41, 0.719);
+        }
     </style>
 </head>
 
 <body>
 
-    <input type="" id="email" placeholder="Email">
-    <br>
-    <input type="" id="password" placeholder="Password">
-    <br>
-    <button onclick="myCode()">SUBMIT</button>
+
 
     
- <script src="./login.js"></script>
+    <div>
+        
+            <input type="email" id="email" placeholder="Email">
+            <br><br>
+            <input type="password" id="password" placeholder="Password">
+            <br><br>
+            <button type="button" onclick="myCode()" data-mdb-ripple-color="dark">SUBMIT</button>
+        
+    </div>
+
+
+    <script src="./login.js"></script>
 </body>
 
 </html>
