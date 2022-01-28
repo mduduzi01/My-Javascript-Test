@@ -21,6 +21,6 @@ auto.innerHTML=" ";
 /* displaying data */
 
 for(let i = 0; i < people.length; i++) {
- document.getElementById("auto").innerHTML += '<li><b>Name: </b>' + people[i].name + ' Age: ' + people[i].age + '</li>';
+ document.getElementById("auto").innerHTML += '<li><b>Name: </b>' + people[i].name + ', ' + ' Age: ' + people[i].age + '</li>';
 }
 
